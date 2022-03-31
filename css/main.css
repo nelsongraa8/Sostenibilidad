@@ -48,3 +48,61 @@
     color: #fff;
     font-weight: bold;
 }
+
+header {
+    background: url(../images/Union3.png) no-repeat center center;
+    background-size: cover;
+}
+.header_mensaje_title {
+    color:#1E5F8E;
+    font-weight: 600;
+    margin-top:40px
+}
+header h5 {
+    font-weight: 800;
+    margin:0px
+}
+
+.header_button_inscribete {
+    background:#1E5F8E;
+    color:#fff;
+    padding-right:25px;
+    padding-left:25px;
+    margin-bottom: 30px;
+}
+
+.contenedor_hora_empezar {  /* Contenedor con toda la hora disponible */
+    margin-bottom: 30px
+}
+.hora_empezar {
+    margin-left:10px;
+    margin-right:10px;
+    display:inline-block;
+    text-align: center;
+}
+.hora_empezar h1 {
+    color:#1E5F8E;
+    font-weight: 700;
+    margin:0px
+}
+.hora_empezar div {
+    color:#1E5F8E;
+    font-size: 14px;
+    font-weight: 400;
+}
+.hora_empezar_dospuntos {
+    display:inline-block;
+}
+.hora_empezar_dospuntos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_empezamos_en {
+    font-weight: 700;
+}
+
+.contendor_fechar_lugar {  /* dias de exposivion y lugar */
+    margin-top:30px;
+    margin-bottom:30px
+}
