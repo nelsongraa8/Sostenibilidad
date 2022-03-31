@@ -1,0 +1,50 @@
+.container_navbar { /* contenedor primario */
+    background: #1E5F8E;
+    padding: 10px 25px 10px 25px;
+}
+
+.container_navbar_right { /* contenedor derecho */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.container_navbar_left { /* contenedor izquierdo */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.container_button_navbar { /* clase del contenedor de buttons en el navbar */
+    padding-top: 15px
+}
+
+.navbar_image_group { /* clase de la imagen del navbar */
+    height: 70px;
+}
+
+.lista_button_navbar {  /* lista de los botones del navbar */
+    list-style: none;
+    display: inline-block;
+}
+.lista_button_navbar li {  /* elementos de la lista del navbar */
+    display: inline-block;
+}
+.elemento_lista_button_navbar {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.elemento_lista_button_navbar a {
+    text-decoration: none;
+    color:#fff
+}
+
+.button_inscribibete {
+    background:#fff;
+    color: #1E5F8E;
+    font-weight: bold;
+}
+.button_lenguaje {
+    background:#60B6D3;
+    color: #fff;
+    font-weight: bold;
+}
