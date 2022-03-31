@@ -48,7 +48,9 @@
     color: #fff;
     font-weight: bold;
 }
+/* END del navbar */
 
+/* header de la web */
 header {
     background: url(../images/Union3.png) no-repeat center center;
     background-size: cover;
@@ -56,7 +58,6 @@ header {
 .header_mensaje_title {
     color:#1E5F8E;
     font-weight: 600;
-    margin-top:100px
 }
 header h5 {
     font-weight: 800;
@@ -68,7 +69,9 @@ header h5 {
     color:#fff;
     padding-right:25px;
     padding-left:25px;
-    margin-bottom: 100px;
+}
+.container_contenido_info_left {  /* capa que engloba a todo el contenido informativo del evento */
+    margin:100px 0px 100px 0px;
 }
 
 .contenedor_hora_empezar {  /* Contenedor con toda la hora disponible */
@@ -105,4 +108,14 @@ header h5 {
 .contendor_fechar_lugar {  /* dias de exposivion y lugar */
     margin-top:30px;
     margin-bottom:30px
+}
+/* END header */
+
+.container_mensaje_bienvenida {
+    margin:30px 0px 30px 0px;
+}
+.container_mensaje_bienvenida > h2 {
+    color:#1E5F8E;
+    font-weight: 600;
+    margin:0px
 }
