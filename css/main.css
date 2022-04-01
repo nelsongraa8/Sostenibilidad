@@ -203,4 +203,7 @@ header h5 {
     color: #60B6D3;
     text-decoration: none;
 }
+.container_card_nombre_apellido {
+    margin:15px 0px;
+}
 /* END ponentes */
