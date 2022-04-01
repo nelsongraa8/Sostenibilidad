@@ -111,6 +111,7 @@ header h5 {
 }
 /* END header */
 
+/* contenedor de las bienvenidas */
 .container_mensaje_bienvenida {
     margin:30px 0px 30px 0px;
 }
@@ -119,3 +120,51 @@ header h5 {
     font-weight: 600;
     margin:0px
 }
+/* END bienvenidas */
+
+/* contenedor de newsletter */
+.contenedor_newsletter {
+    background: #287DA5;
+    padding:30px 0px 30px 0px;
+}
+.button_right_newsletter {
+    background: #1E5F8E;
+    color: #fff;
+    padding-left:20px;
+    padding-right: 20px;
+    cursor:pointer;
+}
+
+/* Contenedor Streaming */
+.contenedor_streaming {
+    padding:30px 0px
+}
+.contenedor_streaming > h2 {
+    color:#1E5F8E;
+    font-weight: 600;
+    margin:0px
+}
+
+.contenedor_streaming_video {
+    margin-top:30px;
+    margin-bottom:30px
+}
+/* END streaming */
+
+/* footer */
+.container_footer {
+    background: #1E5F8E;
+    padding:30px 0px 30px 0px;
+    color: #fff;
+}
+.contenedor_enlaces_redes_cosiales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_enlaces_redes_cosiales a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#fff
+}
+/* END footer */
