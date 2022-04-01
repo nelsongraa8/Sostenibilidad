@@ -154,17 +154,28 @@ header h5 {
 /* footer */
 .container_footer {
     background: #1E5F8E;
-    padding:30px 0px 30px 0px;
+    padding-top:30px;
     color: #fff;
 }
 .contenedor_enlaces_redes_cosiales {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    margin-top:30px
 }
 .contenedor_enlaces_redes_cosiales a {
     margin-left: 10px;
     margin-right: 10px;
     color:#fff
+}
+
+.container_footer_down {
+    background: #287DA5;
+    padding: 30px 0px;
+    margin-top:20px;
+}
+.container_footer_down a {
+    color:#5AB0CE;
+    text-decoration: none;
 }
 /* END footer */
