@@ -179,3 +179,28 @@ header h5 {
     text-decoration: none;
 }
 /* END footer */
+
+/* contenedor de ponentes */
+.container_ponentes {
+    background:#1E5F8E;
+    padding:30px 0px
+}
+.title_ponentes {
+    color:#fff;
+    font-weight: 600;
+}
+.container_ponentes_nombre_apellido {
+    color:#fff;
+    font-weight: 600;
+    margin-bottom:5px;
+}
+.container_ponentes_nombre {
+    color: #5EB3D1;
+    margin-bottom: 5px;
+}
+
+.container_ponentes_link_redes_sociales a {
+    color: #60B6D3;
+    text-decoration: none;
+}
+/* END ponentes */
