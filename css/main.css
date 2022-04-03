@@ -21,6 +21,9 @@
 .navbar_image_group { /* clase de la imagen del navbar */
     height: 70px;
 }
+.navbar_image_group_reponsive {
+    display:none
+}
 
 .lista_button_navbar {  /* lista de los botones del navbar */
     list-style: none;
@@ -133,6 +136,7 @@ header h5 {
     padding-left:20px;
     padding-right: 20px;
     cursor:pointer;
+    border: #1E5F8E;
 }
 
 /* Contenedor Streaming */
@@ -207,3 +211,44 @@ header h5 {
     margin:15px 0px;
 }
 /* END ponentes */
+
+
+/* Estilos para responsive */
+@media only screen and ( max-width: 540px ) {
+    .header_mensaje_title {
+        text-align: center;
+    }
+
+    .container_contenido_info_left {
+        margin: 30px 0px 50px 0px;
+    }
+
+    .container_navbar_right {
+        display:none;
+    }
+
+    .navbar_image_group {
+        display:none;
+    }
+    .navbar_image_group_reponsive {
+        display:inline-block;
+        width: 90%;
+    }
+
+    .header_button_inscribete {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .div_button_menu_lateral {
+        position:absolute;
+        top: 25px;
+        right: 15px;
+        z-index: 10px;
+        color:#fff;
+    }
+    .div_button_menu_lateral > i {
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
