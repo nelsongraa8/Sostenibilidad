@@ -153,6 +153,10 @@ header h5 {
     margin-top:30px;
     margin-bottom:30px
 }
+.contenedor_streaming_video > iframe {
+    width: 100%;
+    height: 535px;
+}
 /* END streaming */
 
 /* footer */
@@ -250,5 +254,18 @@ header h5 {
     .div_button_menu_lateral > i {
         font-size: 25px;
         cursor: pointer;
+    }
+
+    .contenedor_enlaces_redes_cosiales {
+        justify-content: center;
+    }
+
+    .image_jornada_footer {
+        max-width:100%;
+    }
+
+    .contenedor_streaming_video > iframe {
+        width:100%;
+        height:300px;
     }
 }
